@@ -1,0 +1,31 @@
+{
+  "name": "react-native-ota-hot-update",
+  "version": "1.2.0",
+  "description": "Hot update for react native",
+  "main": "src/index",
+  "repository": "https://github.com/vantuan88291/react-native-ota-hot-update",
+  "author": "vantuan88291 <vantuan88291@gmail.com> (https://github.com/vantuan88291)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vantuan88291/react-native-ota-hot-update/issues"
+  },
+  "homepage": "https://github.com/vantuan88291/react-native-ota-hot-update",
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "isomorphic-git": "1.27.3"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.63.4",
+    "react-native-fs": "*"
+  },
+  "create-react-native-library": {
+    "type": "module-legacy",
+    "languages": "kotlin-objc",
+    "version": "0.41.0"
+  },
+  "rnpm": {
+    "android": {
+      "packageInstance": "new OtaHotUpdate(getApplicationContext())"
+    }
+  }
+}
