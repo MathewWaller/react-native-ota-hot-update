@@ -9,7 +9,7 @@ import type { CloneOption, PullOption } from '../type';
 const fs: PromiseFsClient = { promises };
 const getFolder = (folderName?: string) => {
   try {
-    const { DocumentDirectoryPath } = require('react-native-fs');
+    const { DocumentDirectoryPath } = require('@dr.pogodin/react-native-fs');
     return DocumentDirectoryPath + (folderName || '/git_hot_update');
   } catch (e) {}
   return '';

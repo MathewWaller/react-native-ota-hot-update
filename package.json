@@ -16,7 +16,7 @@
   },
   "peerDependencies": {
     "react-native": ">=0.63.4",
-    "react-native-fs": "*"
+    "@dr.pogodin/react-native-fs": "*"
   },
   "create-react-native-library": {
     "type": "module-legacy",

@@ -9,7 +9,7 @@ let RNFS = {
   stat: console.log,
 };
 try {
-  RNFS = require('react-native-fs');
+  RNFS = require('@dr.pogodin/react-native-fs');
 } catch {}
 
 function Err(name: string) {
